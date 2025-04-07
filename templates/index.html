@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>It is a cat or dog?</title>
+</head>
+<body style="background-image: url('/static/uploads/2.jpg'); background-repeat: no-repeat; background-size: cover;">
+    <h1>Download image</h1>
+    <form action="/classify" method="post" enctype="multipart/form-data">
+        <input type="file" name="image" accept="image/*">
+        <input type="submit" value="Download">
+    </form>
+</body>
+</html>

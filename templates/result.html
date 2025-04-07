@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction results</title>
+</head>
+<body style="background-image: url('/static/uploads/1.png'); background-repeat: no-repeat; background-size: cover;">
+    <h1>Result:</h1>
+    {% if prediction %}
+        <p>Prediction: {{ prediction }}</p>
+    {% else %}
+        <p>Prediction error</p>
+    {% endif %}
+    <a href="/">Home page</a>
+</body>
+</html>
